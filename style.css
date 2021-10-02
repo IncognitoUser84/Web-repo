@@ -1,11 +1,10 @@
 body, html {
-  height: 100%;
   margin: 0;
   font-family: Helvetica, sans-serif;
 
   background-image: url("/Web-repo/wk5/background.jpg");
   background-color: #cccccc;
-  background-size: auto;
+  background-size: cover;
 }
 
 
