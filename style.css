@@ -1,5 +1,6 @@
 body, html {
   width: 100%;
+  margin: 0;
   font-family: Helvetica, sans-serif;
   text-align: center;
   background-color: grey;
