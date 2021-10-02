@@ -5,7 +5,7 @@ body, html {
 
   background-image: url("/Web-repo/wk5/background.jpg");
   background-color: #cccccc;
-  background-size: 1600px 1000px;
+  background-size: contain;
 }
 
 
@@ -31,4 +31,11 @@ h3 {
   color: orange;
   font-family:Helvetica;
   font-size: 25px;
+}
+
+ul {
+  text-align: center;
+  color: orange;
+  font-family:Helvetica;
+  font-size: 20px;
 }
