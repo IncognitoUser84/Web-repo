@@ -2,10 +2,9 @@ body, html {
   margin: 0;
   font-family: Helvetica, sans-serif;
 
-  background-image: url("/Web-repo/wk5/background.jpg");
+  background-image: url("/Web-repo/wk5/background.jpg")no-repeat center fixed;
   background-color: #cccccc;
   background-position: center;
-  background-size: 50% 50%;
 }
 
 
