@@ -1,16 +1,16 @@
 body, html {
   font-family: Helvetica, sans-serif;
   text-align: center;
-    background-color: grey;
+  background-color: grey;
 
 }
 
 div{
+  padding-block: 10;
   align-content: center;
   background-image: url("/Web-repo/wk5/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-color: grey;
   background-size: contain;
 }
 
