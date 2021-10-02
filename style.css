@@ -1,7 +1,7 @@
 body, html {
   font-family: Helvetica, sans-serif;
   text-align: center;
-    background-color: #cccccc;
+    background-color: hsl(207, 94%, 49%);
 
 }
 
@@ -10,7 +10,7 @@ div{
   background-image: url("/Web-repo/wk5/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #cccccc;
+  background-color: hsl(207, 94%, 49%);
   background-size: contain;
 }
 
