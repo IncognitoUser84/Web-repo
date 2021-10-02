@@ -1,12 +1,14 @@
 body, html {
   margin: 0;
   font-family: Helvetica, sans-serif;
+}
 
+maindiv{
+  text-align: center;
   background-image: url("/Web-repo/wk5/background.jpg")no-repeat center fixed;
   background-color: #cccccc;
   background-size: cover;
 }
-
 
 
 
