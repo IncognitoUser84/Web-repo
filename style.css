@@ -1,6 +1,4 @@
 body, html {
-  width:100%
-  margin: 0;
   font-family: Helvetica, sans-serif;
   text-align: center;
 
@@ -8,6 +6,9 @@ body, html {
 
 div{
   background-image: url("/Web-repo/wk5/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: border-box;
   background-color: #cccccc;
   background-size: 1600px 800px;
 }
@@ -16,7 +17,8 @@ div{
 
 section{
   text-align: center;
-  width: 60%
+  padding: 10;
+  width: 60%;
 }
 
 
