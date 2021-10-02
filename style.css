@@ -7,9 +7,9 @@ body, html {
 }
 
 div{
-  background-image: url("/Web-repo/wk5/background.jpg")no-repeat center fixed;
+  background-image: url("/Web-repo/wk5/background.jpg");
   background-color: #cccccc;
-  background-size: cover;
+  background-size: 1600px 800px;
 }
 
 
