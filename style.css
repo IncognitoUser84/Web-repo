@@ -1,14 +1,27 @@
-body, html {
+html {
+  width:100%
   margin: 0;
   font-family: Helvetica, sans-serif;
+  text-align: center;
+
 }
 
-maindiv{
+
+body{
+  width:100%
+  margin: 0;
+  font-family: Helvetica, sans-serif;
   text-align: center;
+
   background-image: url("/Web-repo/wk5/background.jpg")no-repeat center fixed;
   background-color: #cccccc;
   background-size: cover;
+
 }
+
+
+
+
 
 
 
