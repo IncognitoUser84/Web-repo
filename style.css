@@ -8,11 +8,11 @@ body, html {
 }
 
 div{
-  align-content: center;
   background-image: url("/Web-repo/wk5/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100vw;
+  align-content: center;
 }
 
 
