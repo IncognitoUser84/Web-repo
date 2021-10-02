@@ -5,7 +5,7 @@ body, html {
 
   background-image: url("/Web-repo/wk5/background.jpg");
   background-color: #cccccc;
-  background-size: contain;
+  background-size: 75% 75%;
 }
 
 
