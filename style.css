@@ -11,7 +11,7 @@ div{
   background-image: url("/Web-repo/wk5/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100vw;
+  background-size: 100%;
   align-content: center;
 }
 
