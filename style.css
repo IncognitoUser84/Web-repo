@@ -5,12 +5,12 @@ body, html {
 }
 
 div{
+  align-content: center;
   background-image: url("/Web-repo/wk5/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-clip: border-box;
   background-color: #cccccc;
-  background-size: 1600px 800px;
+  background-size: cover;
 }
 
 
