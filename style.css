@@ -15,12 +15,6 @@ body, html {
   align-content: center;
 }
 
-.box{
-  width: 50%;
-  background-color:white;
-  box-sizing: content-box;
-}
-
 
 #intro {
   color: orange;
