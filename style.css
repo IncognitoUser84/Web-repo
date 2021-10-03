@@ -24,6 +24,10 @@ body {
   font-size: 25px;
 }
 
+.buttons .form{
+  display: inline-block;
+}
+
 .buttons .button {
   background-color: orange; 
   border:2px white;
