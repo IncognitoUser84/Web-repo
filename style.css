@@ -27,6 +27,7 @@ body {
 
 .buttons .button {
   background-color: orange; 
+  border-color: none;
   border-radius: 12px;
 
   color: white;
