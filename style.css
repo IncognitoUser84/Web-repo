@@ -5,9 +5,6 @@ body, html {
   text-align: center;
   background-color: grey;
 
-}
-
-.background{
   background-image: url("/Web-repo/wk5/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
