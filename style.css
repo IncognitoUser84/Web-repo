@@ -18,6 +18,7 @@ div{
 
 #intro {
   align-content: center;
+  text-align: center;
   width:300px;
   background-color: white;
   color: orange;
