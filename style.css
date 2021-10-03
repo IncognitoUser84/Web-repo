@@ -26,7 +26,8 @@ body {
 }
 
 .buttons .button {
-  background-color: white; /* Green */
+  background-color: white; 
+  border-radius: 12px;
 
   color: orange;
   padding: 15px 32px;
