@@ -52,6 +52,11 @@ body {
   background-color: #FF5C00;
 }
 
+.button:onclick {
+  background-color: #FF5C00;
+  box-shadow: grey;
+}
+
 .hr{
   padding:40px;
 }
