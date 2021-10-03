@@ -12,7 +12,11 @@ body {
   align-content: center;
 }
 
-
+p{
+  color: orange;
+  font-family:Helvetica;
+  font-size: 25px;
+}
 
 #intro {
   
