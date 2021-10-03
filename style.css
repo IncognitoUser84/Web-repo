@@ -7,12 +7,18 @@ body, html {
 
 }
 
-div{
+.background{
   background-image: url("/Web-repo/wk5/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   align-content: center;
+}
+
+.box{
+  width: 50%;
+  padding: 2;
+  box-sizing: content-box;
 }
 
 
