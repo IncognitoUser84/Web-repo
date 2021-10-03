@@ -28,7 +28,7 @@ body {
   display: inline-block;
 }
 
-.buttons .button {
+.buttons .form .button {
   background-color: #FF8A00; 
   border:2px white;
   border-radius: 12px;
@@ -44,11 +44,11 @@ body {
 }
 
 
-.buttons .button:not(:last-child) {
+.buttons .form .button:not(:last-child) {
   border-right: none; /* Prevent double borders */
 }
 
-.buttons .button:hover {
+.buttons .form .button:hover {
   background-color: darkorange;
 }
 
