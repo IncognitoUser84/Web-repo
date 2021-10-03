@@ -17,6 +17,7 @@ div{
 }
 
 #intro {
+  align-self: center;
   align-content: center;
   text-align: center;
   width:300px;
