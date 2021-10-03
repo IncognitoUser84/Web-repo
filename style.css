@@ -16,8 +16,13 @@ div{
   align-content: center;
 }
 
-#intro {
+.shape{
+  text-align: center;
+}
 
+
+#intro {
+  
   align-content: center;
   text-align: center;
   width:300px;
