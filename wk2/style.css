@@ -1,0 +1,60 @@
+body {
+    width:100%;
+    margin:0;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    background-color: #0E81C2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    text-align: center;
+    color: #FF8A00;
+    font-family:Helvetica;
+    font-size:60px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #FF8A00;
+    font-family:Helvetica;
+    font-size: 35px;
+  }
+  
+  h3 {
+    text-align: center;
+    color: #FF8A00;
+    font-family:Helvetica;
+    font-size: 25px;
+  }
+  
+  h4 {
+    text-align: center;
+    color: #FF8A00;
+    font-family:Helvetica;
+    font-size: 20px;
+  }
+  
