@@ -56,6 +56,12 @@ body {
   padding:40px;
 }
 
+#encyc, a{
+ color:white;
+ font-size: 20px; 
+}
+
+
 h1{
   text-align: center;
   color: orange;
