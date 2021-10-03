@@ -17,11 +17,13 @@ div{
 }
 
 #intro {
-  align-self: center;
+  position: absolute;
+  position: center;
   align-content: center;
   text-align: center;
   width:300px;
   background-color: white;
+  background-position: center;
   color: orange;
   font-family:Helvetica;
   font-size: 25px;
