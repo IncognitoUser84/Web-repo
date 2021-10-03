@@ -8,7 +8,7 @@ body, html {
 
 }
 
-div{
+.background{
   background-image: url("/Web-repo/wk5/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
