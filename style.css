@@ -17,7 +17,10 @@ div{
 }
 
 .shape{
-  text-align: center;
+  align-content: center;
+  width: 300px;
+  height: 260px;
+  background-position-x: center;
 }
 
 
