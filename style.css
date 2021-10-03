@@ -18,6 +18,7 @@ body, html {
 .box{
   width: 50%;
   padding: 2;
+  color:white;
   box-sizing: content-box;
 }
 
