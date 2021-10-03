@@ -2,31 +2,8 @@ body {
     width:100%;
     margin:0;
     font-family: Helvetica, sans-serif;
-    text-align: center;
     background-color: #0E81C2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -58,3 +35,8 @@ h1{
     font-size: 20px;
   }
   
+a{
+    color:white;
+    font-size: 20px; 
+   }
+   
