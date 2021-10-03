@@ -28,7 +28,7 @@ body {
   display: inline-block;
 }
 
-.buttons .form .button {
+.buttons .button {
   background-color: #FF8A00; 
   border:2px white;
   border-radius: 12px;
