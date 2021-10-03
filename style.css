@@ -17,9 +17,20 @@ div{
 }
 
 #intro {
+  background-color: white;
   color: orange;
   font-family:Helvetica;
   font-size: 25px;
+}
+
+#list {
+  background-color: white;
+  color: orange;
+  font-family:Helvetica;
+  font-size: 25px;
+
+  display:inline-block;
+  color: orange;
 }
 
 
@@ -44,9 +55,3 @@ h3 {
   font-size: 25px;
 }
 
-ul,li{
-  display:inline-block;
-  color: orange;
-  font-family:Helvetica;
-  font-size: 20px;
-}
