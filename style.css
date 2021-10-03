@@ -5,13 +5,16 @@ body, html {
   text-align: center;
   background-color: grey;
 
+
+}
+
+div{
   background-image: url("/Web-repo/wk5/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   align-content: center;
 }
-
 
 #intro {
   color: orange;
