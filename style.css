@@ -17,6 +17,7 @@ div{
 }
 
 #intro {
+  align-content: center;
   width:300px;
   background-color: white;
   color: orange;
@@ -24,10 +25,11 @@ div{
   font-size: 25px;
 }
 
-ul, li {
+ul li {
   display:inline-block;
   width:300px;
   background-color: white;
+
   color: orange;
   font-family:Helvetica;
   font-size: 25px;
