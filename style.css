@@ -47,6 +47,10 @@ body {
   background-color: darkorange;
 }
 
+.hr{
+  padding:40px;
+}
+
 h1{
   text-align: center;
   color: orange;
