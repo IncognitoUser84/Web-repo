@@ -13,7 +13,7 @@
 
     <div class="buttons">
       <form>
-        <button type="submit" class="button" formaction="/Web-repo/wk5/about_me.html">About Me</button>
+        <button type="submit" id="b1"class="button" formaction="/Web-repo/wk5/about_me.html">About Me</button>
         <button type="submit" class="button" formaction="/Web-repo/wk5/my_goals.html">My Goals</button>
         <button type="submit" class="button" formaction="/Web-repo/wk5/my_goals.html">Skills</button>
         <button type="submit" class="button" formaction="/Web-repo/wk5/my_goals.html">Achievements</button>
@@ -34,7 +34,7 @@
   </div>
   <script>
     console.log("javascript working");
-    document.getElementByClass("button").addEventListener("click", buttonClicked);
+    document.getElementById("b1").addEventListener("click", buttonClicked);
     function buttonClicked(){
       alert("Task failed Successfully");
     }
