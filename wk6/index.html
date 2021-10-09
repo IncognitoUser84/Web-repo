@@ -32,10 +32,13 @@
     </section>
 
   </div>
-<script>
-  console.log("javascript working");
-  document.getElementByClass("buttons").addEventListener("click", function(){alert("Task failed Successfully")});
-</script>
+  <script>
+    console.log("javascript working");
+    document.getElementByClass("button").addEventListener("click", buttonClicked);
+    function buttonClicked(){
+      alert("Task failed Successfully");
+    }
+  </script>
 </body>
 
 </html>
