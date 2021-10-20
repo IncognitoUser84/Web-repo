@@ -1,0 +1,96 @@
+body {
+  width:100%;
+  margin:0;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  background-color: #78848B;
+
+  background-image: url("/Web-repo/wk5/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+}
+
+
+#intro {
+  align-content: center;
+  text-align: center;
+  width:300px;
+  background-color: white;
+  background-position: center;
+  color: #FF8A00;
+  font-family:Helvetica;
+  font-size: 25px;
+}
+
+.buttons .form{
+  display: inline-block;
+}
+
+.buttons .button {
+  background-color: #FF8A00; 
+  border:2px white;
+  border-radius: 12px;
+
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.buttons .button:not(:last-child) {
+  border-right: none; 
+}
+
+.buttons .button:hover {
+  background-color: #FF5C00;
+}
+
+.button:onclick {
+  background-color: #FF5C00;
+  box-shadow: grey;
+}
+
+.hr{
+  padding:40px;
+}
+
+#encyc, a{
+ color:white;
+ font-size: 20px; 
+}
+
+
+h1{
+  text-align: center;
+  color: #FF8A00;
+  font-family:Helvetica;
+  font-size:60px;
+}
+
+h2 {
+  text-align: center;
+  color: #FF8A00;
+  font-family:Helvetica;
+  font-size: 35px;
+}
+
+h3 {
+  text-align: center;
+  color: #FF8A00;
+  font-family:Helvetica;
+  font-size: 25px;
+}
+
+h4 {
+  text-align: center;
+  color: #FF8A00;
+  font-family:Helvetica;
+  font-size: 20px;
+}
