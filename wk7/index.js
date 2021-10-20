@@ -16,3 +16,4 @@ function buttonClicked(){
   }else{
     quotecount++;
   }
+}
