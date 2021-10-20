@@ -34,10 +34,8 @@
   </div>
   <script>
     console.log("javascript working");
-    document.getElementById("b1").addEventListener("click", buttonClicked);
-    document.getElementById("b2").addEventListener("click", buttonClicked);
-    document.getElementById("b3").addEventListener("click", buttonClicked);
-    document.getElementById("b4").addEventListener("click", buttonClicked);
+    document.getElementByClassName("button").addEventListener("click", buttonClicked);
+    
     function buttonClicked(){
       alert("Task failed Successfully");
     }
