@@ -4,15 +4,15 @@ const quotes = ["Be yourself; everyone else is already taken.",
 "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
 "So many books, so little time.",
 "A room without books is like a body without a soul"];
-let quotecount = 1;
+let quotecount = 0;
 
-document.getElementById("newquote").addEventListener("click",buttonClicked);
+document.getElementById("newquote").addEventListener("click", buttonClicked);
 
 function buttonClicked(){
   console.log(quotes[quotecount]);
   document.getElementById("qtext").innerHTML = quotes[quotecount];
-  if(quotecount>=6){
-    quotecount = 1;
+  if(quotecount>=5){
+    quotecount = 0;
   }else{
     quotecount++;
   }
