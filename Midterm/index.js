@@ -1,5 +1,5 @@
 let days = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
-let images = [];
+let images = ["Mon.jpg","Tue.jpg","Wed.jpg","Thu.jpg","Fri.jpg","Sat.jpg","Sun.jpg"];
 let prevday;
 
 for(i=0; i<document.getElementsByClassName("day").length; i++){
