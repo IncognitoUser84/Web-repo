@@ -18,6 +18,7 @@ body {
   font-size: 1.8em;
   background-color: grey;
   opacity: 0.9;
+  border-bottom: none;
 }
 
 #items{
@@ -25,7 +26,6 @@ body {
   margin: 0 10vw 0 10vw;
   border: 1px solid #aaa;
   border-top: none;
-  border-top:none;
 }
 
 .day{
@@ -41,6 +41,7 @@ body {
   border: 1px solid grey;
   max-width: 50%;
   opacity: 0.9;
+  border-top: none;
 }
 
 #Tuemenu, #Wedmenu, #Thumenu, #Frimenu, #Satmenu, #Sunmenu{
