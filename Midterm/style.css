@@ -54,7 +54,7 @@ body {
   max-width: 50%;
   opacity: 0.9;
   border-top: none;
-  padding: 5%;
+  padding: 15%, 5%, 15%, 5%;
 }
 
 #Tuemenu, #Wedmenu, #Thumenu, #Frimenu, #Satmenu, #Sunmenu{
