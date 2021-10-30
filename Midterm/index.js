@@ -18,15 +18,17 @@ if(prevday != undefined){
   document.getElementsById(prevday).classList.toggle("active");
 }
 
-  console.log(e.target.innerHTML);
 
   if(e.target.tagName == "H2"){
-    console.log("h2 clicked");
+
     e.target.parentNode.classList.toggle("active");
 
   }else{
-    console.log("div clicked");
+
     e.target.classList.toggle("active");
   }
+
+  day = document.getElementByClassName('active')[0].id;
+  document.getElementById('image').innerHTML = "<img src='assets/" + day ".jpg' >";
 
 }
