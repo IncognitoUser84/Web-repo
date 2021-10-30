@@ -25,6 +25,7 @@ body {
   margin: 0 10vw 0 10vw;
   border: 1px solid #aaa;
   border-top: none;
+  border-top:none;
 }
 
 .day{
@@ -48,6 +49,7 @@ body {
 
 .active{
   background-color: white;
+  border-bottom: none;
   opacity: 0.9;
 }
 

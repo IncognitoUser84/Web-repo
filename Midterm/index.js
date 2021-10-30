@@ -16,6 +16,7 @@ function setActive(e){
 prevday = document.getElementByClassName("active")[0].id;
 if(prevday != undefined){
   document.getElementsById(prevday).classList.toggle("active");
+  document.getElementById(prevday + "menu").style.display = "none";
 }
 
 
