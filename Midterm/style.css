@@ -36,7 +36,7 @@ body {
 }
 
 
-#image, .menu{
+#image{
   flex-grow:1;
   width: auto;
   background-color: white;
@@ -44,6 +44,17 @@ body {
   max-width: 50%;
   opacity: 0.9;
   border-top: none;
+}
+
+.menu{
+  flex-grow:1;
+  width: auto;
+  background-color: white;
+  border: 1px solid grey;
+  max-width: 50%;
+  opacity: 0.9;
+  border-top: none;
+  padding: 10%;
 }
 
 #Tuemenu, #Wedmenu, #Thumenu, #Frimenu, #Satmenu, #Sunmenu{
