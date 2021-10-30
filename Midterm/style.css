@@ -14,11 +14,11 @@ body {
 
 #tabs{
   display: flex;
-  margin: 25vh 10vw 0 10vw;
+  margin: 0 10vw 0 10vw;
   font-size: 1.8em;
   background-color: grey;
   opacity: 0.9;
-    border-bottom: none;
+  border-bottom: none;
 }
 
 #items{
