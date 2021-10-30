@@ -24,7 +24,6 @@ body {
 #items{
   display: flex;
   margin: 0 10vw 0 10vw;
-  border: 1px solid #aaa;
   border-top: none;
 }
 
