@@ -19,7 +19,7 @@ body {
   width: 60%;
   opacity: 0.8;
   text-align: center;
-  border: 3px solid grey;
+  border: 2px solid grey;
 }
 
 #tabs{
@@ -27,10 +27,15 @@ body {
   margin: 25vh 10vw 0 10vw;
 }
 
+#items{
+  display: flex;
+  margin: 0 10vw 0 10vw;
+}
+
 .day{
   flex-grow:1;
   width: auto;
-  border: 2px solid grey;
+  border: 1px solid grey;
 }
 
 #intro {
