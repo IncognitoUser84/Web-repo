@@ -12,24 +12,18 @@ body {
   align-content: center;
 }
 
-#textbox {
-  margin: auto;
-  background-color: lightgrey;
-  position: absolute;
-  width: 60%;
-  opacity: 0.8;
-  text-align: center;
-  border: 2px solid grey;
-}
-
 #tabs{
   display: flex;
   margin: 25vh 10vw 0 10vw;
+  font-size: 2em;
 }
 
 #items{
   display: flex;
   margin: 0 10vw 0 10vw;
+  padding-top: 80px;
+  border: 1px solid #aaa;
+  border-top: none;
 }
 
 .day{
@@ -37,6 +31,31 @@ body {
   width: auto;
   border: 1px solid grey;
 }
+
+#image, .menu{
+  flex-grow:1;
+  width: auto;
+  background-color: white;
+  border: 1px solid grey;
+  max-width: 50%;
+}
+
+#TueList, #WedList, #ThuList, #FriList, #SatList, #SunList{
+  display: none;
+}
+
+.active{
+  background-color: white;
+}
+
+img{
+  max-height: 80%;
+  max-width: 80%;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
 
 #intro {
   align-content: center;

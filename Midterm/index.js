@@ -1,15 +1,22 @@
+let days = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
+let images = [];
+let prevday;
 
-days = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
 for(i=0; i<document.getElementsByClassName("day").length; i++){
-  console.log(days[i]);
-  document.getElementsByClassName("day")[i].innerHTML = days[i];
+  document.getElementsByClassName("day")[i].innerHTML = "<h2>" + days[i] + "</h2>";
   document.getElementsByClassName("day")[i].addEventListener('click', setActive,false);
   document.getElementsByClassName("day")[i].id = days[i];
 }
 
+document.getElementById("image").innerHTML = "<img src= 'Assets/" + images[0] + "' >"
+
 function setActive(e){
-  console.log('clicked');
-  e.target.classList.toggle('active');
+
+prevday = document.getElementByClassName("active")[0].id;
+if(prevday != underfined){
+  document.getElementsById(prevday).classList.toggle("active");
+}
+
   console.log(e.target.innerHTML);
 
   if(e.target.tagName == "H2"){
