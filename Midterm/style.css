@@ -1,6 +1,6 @@
 body {
   width:100%;
-  margin:5vw;
+  margin:0 5vw 0 5vw;
   font-family: sans-serif;
   text-align: center;
   background-color: #78848B;
@@ -8,7 +8,7 @@ body {
   background-image: url("/Web-repo/Midterm/Assets/DSC_1823.JPG");
   background-position: center;
   background-repeat: no-repeat;
-  background-size:auto;
+  background-size: auto;
   align-content: center;
 }
 
