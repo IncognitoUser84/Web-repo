@@ -35,6 +35,12 @@ body {
   border-bottom: none;
 }
 
+#text{
+  margin: 10vh 10vw 10vh 10vw;
+  background-color: white;
+  opacity: 0.9;
+}
+
 #image, .menu{
   flex-grow:1;
   width: auto;
@@ -51,7 +57,6 @@ body {
 
 .active{
   background-color: white;
-  border-bottom: none;
   opacity: 0.9;
 }
 
