@@ -35,10 +35,6 @@ body {
   border-bottom: none;
 }
 
-#text{
-  background-color: white;
-  opacity: 0.9;
-}
 
 #image, .menu{
   flex-grow:1;
