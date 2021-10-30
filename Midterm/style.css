@@ -1,6 +1,6 @@
 body {
   width:100%;
-  margin:0;
+  margin:90vw;
   font-family: sans-serif;
   text-align: center;
   background-color: #78848B;
@@ -60,9 +60,8 @@ img{
   object-fit: cover;
   display: block;
   margin: auto;
-  padding: 40px;
+  padding: 80px;
 }
-
 
 
 h1{
