@@ -23,7 +23,6 @@ body {
 #items{
   display: flex;
   margin: 0 10vw 0 10vw;
-  padding-top: 80px;
   border: 1px solid #aaa;
   border-top: none;
 }
@@ -40,6 +39,7 @@ body {
   background-color: white;
   border: 1px solid grey;
   max-width: 50%;
+  opacity: 0.9;
 }
 
 #TueList, #WedList, #ThuList, #FriList, #SatList, #SunList{
