@@ -13,24 +13,24 @@ document.getElementById("image").innerHTML = "<img src= 'Assets/" + images[0] + 
 
 function setActive(e){
 
-prevday = document.getElementsByClassName("active")[0].id;
-if(prevday != undefined){
-  document.getElementById(prevday).classList.toggle("active");
-  document.getElementById(prevday + "menu").style.display = "none";
-}
-
-
-  if(e.target.tagName == "H2"){
-
-    e.target.parentNode.classList.toggle("active");
-
-  }else{
-
-    e.target.classList.toggle("active");
+  prevday = document.getElementsByClassName("active")[0].id;
+  if(prevday != undefined){
+    document.getElementById(prevday).classList.toggle("active");
+    document.getElementById(prevday + "menu").style.display = "none";
   }
 
-  day = document.getElementsByClassName('active')[0].id;
-  console.log(day);
-  document.getElementById('image').innerHTML = "<img src='Assets/" + day + ".jpg' >";
-  document.getElementById(day +"menu").style.display = "block";
+
+    if(e.target.tagName == "H2"){
+
+      e.target.parentNode.classList.toggle("active");
+
+    }else{
+
+      e.target.classList.toggle("active");
+    }
+
+    day = document.getElementsByClassName('active')[0].id;
+    console.log(day);
+    document.getElementById('image').innerHTML = "<img src='Assets/" + day + ".jpg' >";
+    document.getElementById(day +"menu").style.display = "block";
 }
