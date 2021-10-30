@@ -29,6 +29,6 @@ if(prevday != undefined){
   }
 
   day = document.getElementByClassName('active')[0].id;
-  document.getElementById('image').innerHTML = "<img src='assets/" + day ".jpg' >";
+  document.getElementById('image').innerHTML = "<img src='assets/" + day + ".jpg' >";
 
 }
