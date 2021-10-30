@@ -31,7 +31,6 @@ if(prevday != undefined){
 
   day = document.getElementsByClassName('active')[0].id;
   console.log(day);
-  document.getElementById(day +"menu").style.display = "block";
   document.getElementById('image').innerHTML = "<img src='Assets/" + day + ".jpg' >";
-
+  document.getElementById(day +"menu").style.display = "block";
 }
