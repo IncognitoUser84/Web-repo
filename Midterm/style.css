@@ -8,7 +8,7 @@ body {
   background-image: url("/Web-repo/Midterm/Assets/DSC_1823.JPG");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:auto;
   align-content: center;
 }
 
