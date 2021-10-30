@@ -14,7 +14,7 @@ document.getElementById("image").innerHTML = "<img src= 'Assets/" + images[0] + 
 function setActive(e){
 
 prevday = document.getElementByClassName("active")[0].id;
-if(prevday != underfined){
+if(prevday != undefined){
   document.getElementsById(prevday).classList.toggle("active");
 }
 
