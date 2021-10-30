@@ -14,11 +14,11 @@ body {
 
 #tabs{
   display: flex;
-  margin: auto;
+  margin: 25vh 10vw 0 10vw;
   font-size: 1.8em;
   background-color: grey;
   opacity: 0.9;
-  border-bottom: none;
+    border-bottom: none;
 }
 
 #items{
@@ -26,7 +26,6 @@ body {
   margin: 0 10vw 0 10vw;
   border: 1px solid #aaa;
   border-top: none;
-  padding-bottom: 60px;
 }
 
 .day{
@@ -61,7 +60,7 @@ img{
   object-fit: cover;
   display: block;
   margin: auto;
-  padding-top: : 40px;
+  padding: 40px;
 }
 
 
