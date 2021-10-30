@@ -1,6 +1,6 @@
 let days = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
 let images = ["Mon.jpg","Tue.jpg","Wed.jpg","Thu.jpg","Fri.jpg","Sat.jpg","Sun.jpg"];
-let prevday;
+let prevday = "Mon";
 
 for(i=0; i<document.getElementsByClassName("day").length; i++){
   document.getElementsByClassName("day")[i].innerHTML = "<h2>" + days[i] + "</h2>";
