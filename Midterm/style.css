@@ -43,7 +43,7 @@ body {
   opacity: 0.9;
 }
 
-#TueList, #WedList, #ThuList, #FriList, #SatList, #SunList{
+#Tuemenu, #Wedmenu, #Thumenu, #Frimenu, #Satmenu, #Sunmenu{
   display: none;
 }
 
