@@ -19,28 +19,27 @@ body {
   font-size: 1.8em;
   background-color: grey;
   opacity: 0.9;
-  border-bottom: none;
 }
 
 #items{
   display: flex;
   margin: 0 10vw 0 10vw;
-  border-top: none;
 }
 
 .day{
   flex-grow:1;
   width: auto;
+  border-radius: 8px 8px 0 0;
   border: 1px solid grey;
   border-bottom: none;
 }
-
 
 #image{
   flex-grow:1;
   width: auto;
   background-color: white;
   border: 1px solid grey;
+  border-radius: 0 0 0 8px;
   max-width: 50%;
   opacity: 0.9;
   border-top: none;
@@ -51,6 +50,7 @@ body {
   width: auto;
   background-color: white;
   border: 1px solid grey;
+  border-radius: 0 0 8px 0;
   max-width: 50%;
   opacity: 0.9;
   border-top: none;
