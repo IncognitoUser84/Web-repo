@@ -15,9 +15,8 @@ body {
 #textbox {
   margin-top:50px;
   background-color: lightgrey;
-  position: absolute;
-  width: 300px;
-  height: 400px;
+  width: 600px;
+  height: 800px;
   opacity: 0.8;
   top: -12px;
   left: 35px;
