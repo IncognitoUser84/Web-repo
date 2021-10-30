@@ -8,7 +8,8 @@ for(i=0; i<document.getElementsByClassName("day").length; i++){
   document.getElementsByClassName("day")[i].id = days[i];
 }
 
-document.getElementById("image").innerHTML = "<img src= 'Assets/" + images[0] + "' >"
+document.getElementById('Mon').classList.toggle('active');
+document.getElementById("image").innerHTML = "<img src= 'Assets/" + images[0] + "' >";
 
 function setActive(e){
 
