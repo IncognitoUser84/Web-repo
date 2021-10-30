@@ -29,7 +29,7 @@ if(prevday != undefined){
     e.target.classList.toggle("active");
   }
 
-  day = document.getElementByClassName('active')[0].id;
+  day = document.getElementsByClassName('active')[0].id;
   console.log(day);
   document.getElementById(day +"menu").style.display = "block";
   document.getElementById('image').innerHTML = "<img src='Assets/" + day + ".jpg' >";
