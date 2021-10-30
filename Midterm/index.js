@@ -1,6 +1,6 @@
 let days = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
 let images = ["Mon.jpg","Tue.jpg","Wed.jpg","Thu.jpg","Fri.jpg","Sat.jpg","Sun.jpg"];
-let prevday = "Mon";
+let prevday;
 
 for(i=0; i<document.getElementsByClassName("day").length; i++){
   document.getElementsByClassName("day")[i].innerHTML = "<h2>" + days[i] + "</h2>";
@@ -16,7 +16,7 @@ function setActive(e){
 prevday = document.getElementsByClassName("active")[0].id;
 if(prevday != undefined){
   document.getElementById(prevday).classList.toggle("active");
-  document.getElementById(prevday + "menu").style.display = "none";
+  //document.getElementById(prevday + "menu").style.display = "none";
 }
 
 
