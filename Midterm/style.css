@@ -1,7 +1,7 @@
 body {
   width:100%;
   margin:0;
-  font-family: Open-sans;
+  font-family: sans-serif;
   text-align: center;
   background-color: #78848B;
 
@@ -13,16 +13,13 @@ body {
 }
 
 #textbox {
-  margin-top:50px;
+  margin: auto;
   background-color: lightgrey;
   position: absolute;
-  width: 800px;
-  height: 400px;
+  width: 60%;
   opacity: 0.8;
-  top: -12px;
-  left: 35px;
   text-align: center;
-  border: 2px solid silver;
+  border: 3px solid grey;
 }
 
 #tabs{
@@ -33,7 +30,7 @@ body {
 .day{
   flex-grow:1;
   width: auto;
-  border: 2px grey;
+  border: 2px solid grey;
 }
 
 #intro {
