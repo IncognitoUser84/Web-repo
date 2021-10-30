@@ -1,11 +1,11 @@
 body {
   width:100%;
   margin:0;
-  font-family: Helvetica, sans-serif;
+  font-family: Open-sans;
   text-align: center;
   background-color: #78848B;
 
-  background-image: url("\Web-repo\Midterm\Assets\DSC_1823.JPG");
+  background-image: url("/Web-repo/Midterm/Assets/DSC_1823.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,6 +23,17 @@ body {
   left: 35px;
   text-align: center;
   border: 2px solid silver;
+}
+
+#tabs{
+  display: flex;
+  margin: 25vh 10vw 0 10vw;
+}
+
+.day{
+  flex-grow:1;
+  width: auto;
+  border: 2px grey;
 }
 
 #intro {
