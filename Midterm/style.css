@@ -48,6 +48,7 @@ body {
 
 .active{
   background-color: white;
+  opacity: 0.9;
 }
 
 img{
@@ -56,62 +57,9 @@ img{
   object-fit: cover;
   display: block;
   margin: auto;
-  padding: 40px; 
+  padding: 40px;
 }
 
-
-#intro {
-  align-content: center;
-  text-align: center;
-  width:300px;
-  background-color: white;
-  background-position: center;
-  color: #FF8A00;
-  font-family:Helvetica;
-  font-size: 25px;
-}
-
-.buttons .form{
-  display: inline-block;
-}
-
-#newquote {
-  background-color: #FF8A00;
-  border:2px white;
-  border-radius: 12px;
-
-  color: white;
-  padding: 15px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-
-.buttons .button:not(:last-child) {
-  border-right: none;
-}
-
-.buttons .button:hover {
-  background-color: #FF5C00;
-}
-
-.button:onclick {
-  background-color: #FF5C00;
-  box-shadow: grey;
-}
-
-.hr{
-  padding:40px;
-}
-
-#encyc, a{
- color:white;
- font-size: 20px;
-}
 
 
 h1{
