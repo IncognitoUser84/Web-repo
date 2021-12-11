@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
 *{
-  box-sizing: border-box;
+  box-sizing:border-box;
   margin: 0;
   padding: 0;
   background-color: #24252A;
@@ -10,10 +10,10 @@
 body{
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
 }
 
-li,a,button{
+
+li,a{
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 17px;
@@ -54,7 +54,7 @@ header{
 
 .navbar li{
   display: inline-block;
-  padding: 0px 18px;
+  padding: 0px 16px;
 }
 
 .navbar li a{
@@ -66,6 +66,8 @@ header{
   text-decoration: overline;
 }
 
+
+
 .search-box{
   margin-left: auto;
   background-color: #999999;
@@ -74,10 +76,9 @@ header{
 }
 
 .search-box:hover > .search-txt{
-  width: 220px;
+  width: 240px;
   padding: 0 10px;
 }
-
 
 .search-btn{
   float: right;
@@ -90,10 +91,11 @@ header{
 }
 
 .search-txt{
+  background-color: #999999;
+  float: left;
   border: none;
   background: none;
   outline: none;
-  float: left;
   padding: 0;
   font-size: 15px;
   color: white;
@@ -107,10 +109,7 @@ header{
   left: 50%;
   top: 60%;
   transform: translate(-50%, -50%);
-
   width: 92%;
-  height: 50%;
-
   display: flex;
   justify-content: flex-start;
   align-items: center;
