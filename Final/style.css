@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252A;
+}
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+li,a,button{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 5%;
+  opacity: 70%;
+  position:fixed;
+}
+
+#vid{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  filter:brightness(85%);
+}
+
+.logo{
+  max-width: 300px;
+  cursor: pointer;
+  padding-right: 6%;
+}
+
+.navbar{
+  list-style: none;
+}
+
+.navbar li{
+  display: inline-block;
+  padding: 0px 18px;
+}
+
+.navbar li a{
+  transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover {
+  color: orange;
+  text-decoration: overline;
+}
+
+.search-box{
+  margin-left: auto;
+  background-color: #999999;
+  border-radius: 35px;
+  padding: 3px;
+}
+
+.search-box:hover > .search-txt{
+  width: 220px;
+  padding: 0 10px;
+}
+
+
+.search-btn{
+  float: right;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-txt{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  font-size: 15px;
+  color: white;
+  transition: 0.4s;
+  line-height: 35px;
+  width: 0px;
+}
+
+.cont{
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+
+  width: 92%;
+  height: 50%;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: transparent;
+}
+
+#txt1{
+  background-color: transparent;
+  text-align: left;
+}
+
+#t{
+  padding-left: 10px;
+  opacity: 55%;
+}
+
+#txt2{
+  margin-left: auto;
+  background-color: transparent;
+}
+
+#menu{
+    background-color: transparent;
+    list-style: none;
+    text-align: right;
+}
+
+#menu li{
+    background-color: transparent;
+    list-style: none;
+    text-align: right;
+    line-height: 60px;
+}
+
+#menu li a{
+  background-color: transparent;
+  opacity: 60%;
+  transition: all 0.3s ease 0s;
+}
+
+#menu li a:hover {
+  color: white;
+  opacity: 100%;
+  text-decoration: underline;
+}
+
+.feature{
+  background-image: url( https://cirrusaircraft.com/wp-content/uploads/2020/05/feature-bkg__introducing-visionair2x-scaled.jpg );
+  background-position: 50%;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  z-index: 0;
+}
+
+
+
+
+
+
+
+
+
+h1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 100px;
+  background-color: transparent;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  background-color: transparent;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  background-color: transparent;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  background-color: transparent;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-align: left;
+  color: white;
+  font-size: 18px;
+  background-color: transparent;
+}
+
+.en{
+  max-width: 25px;
+}
+
+footer{
+  position:absolute;
+  left: 50%;
+  bottom: -60px;
+  transform: translate(-50%, -50%);
+
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items:center;
+  padding: 10px 5%;
+}
+
+#us{
+    padding-left: 10px;
+    font-size: 12px;
+    margin-right: auto;
+}
+
+.navfooter{
+  list-style: none;
+}
+
+.navfooter li{
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+.navfooter li a{
+  font-size: 12px;
+  transition: all 0.3s ease 0s;
+}
+
+.navfooter li a:hover {
+  color: orange;
+}
