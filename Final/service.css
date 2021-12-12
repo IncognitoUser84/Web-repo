@@ -126,8 +126,9 @@ header{
 }
 
 #textbox{
+  margin-left: -160px;
   padding: 60px;
-  width: 70%;
+  width: 75%;
   text-align: left;
   background-color: transparent;
 }
