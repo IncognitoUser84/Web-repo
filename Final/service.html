@@ -7,15 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Final</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="service.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 
 <body>
-  <video  id="vid" src="https://cirrusaircraft.com/wp-content/uploads/2020/06/Hero-Video_Homepage_06152020.mp4" poster="https://cirrusaircraft.com/wp-content/uploads/2020/06/Hero-Video_Homepage_06152020_thumb1.jpg" muted autoplay loop playsinline>
-  </video>
+  <video id="vid" src="https://cirrusaircraft.com/wp-content/uploads/2020/06/Video-Hero_TRAC.mp4" poster="https://cirrusaircraft.com/wp-content/uploads/2020/06/Video-Hero_TRAC_thumb1.jpg" class="hero__bg-video component--bg-video" muted autoplay loop playsinline>
+    </video>
   <header id="header">
-    <img class="logo" src="Assets/logo.png" alt="logo">
+    <a class="home" href="index.html">
+      <img class="logo" src="Assets/logo.png" alt="logo">
+    </a>
     <nav>
       <ul class="navbar">
         <li><a href="aircrafts.html">AIRCRAFTS</a></li>
@@ -33,24 +35,19 @@
     </div>
   </header>
 
-<section>
-  <div class="cont">
-    <div id="txt1">
-      <h1>CUSTOM</h1>
-      <h1>NOW.</h1>
-      <p id="t">Create Your Own Cirrus SR22.</p>
-    </div>
-    <div id="txt2">
-      <ul id="menu">
-        <li><a href="#">SELECT MODEL</a></li>
-        <li><a href="#">COLORS</a></li>
-        <li><a href="#">ENGINE</a></li>
-        <li><a href="#">ACCESSORIES</a></li>
-      </ul>
+  <section>
+    <div class="cont">
+      <div id="textbox">
+        <h2>GLOBAL NETWORK OF 200+ AUTHORIZED SERVICE CENTERS</h2>
+        <h1>Service Centers</h1>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus vitae congue mauris rhoncus. Turpis cursus in hac habitasse platea dictumst.</p>
+      </div>
+      <div id="map">
+        <iframe loading="lazy" height="100%" id="locator-map" src="https://locator.cirrusaircraft.com?filters_state=hide&amp;filters=asc_filter&amp;sd_state=hide" style="border:none;" title="locator map" width="100%" class="locator-map" allow="geolocation"></iframe>
     </div>
   </div>
-</section>
-
+  </section>
 
 <footer id="footer">
 
