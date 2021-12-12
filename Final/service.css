@@ -179,6 +179,11 @@ h4 {
   background-color: transparent;
 }
 
+hr{
+  border:none;
+  border-top: 2px solid white;
+}
+
 .cont p {
   padding-top: 20px;
   line-height: 30px;
